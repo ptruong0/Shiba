@@ -1,0 +1,61 @@
+* {
+    background-color: pink;
+    font-family: 'Source Serif Pro', 'serif';
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    text-align: center;
+    font-stretch: condensed;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;    /*horizontal centering*/
+    align-items: center;        /*vertical centering*/
+    border-radius: 15%;
+    background-color: lightgreen;
+    font-size: 14px;
+}
+
+.setup {
+    padding-top: 5px;
+}
+
+.delivery {
+    padding-bottom: 5px;
+}
+
+.singlejoke {
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    border: 3px solid #2F243A;
+}
+
+.twopartjoke {
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #2F6690;
+}
+
+.show {
+    background-color: #DBD56E;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+input[type=number] {
+    height: 25px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
