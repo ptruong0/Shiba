@@ -1,28 +1,31 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shiba Stress Relief</title>
-    <link href="shiba.css" rel="stylesheet" type="text/css"> 
+    <link href="shiba.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="script.js"></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <h1 class="text"> Come in and relax</h1>
 
     <div id="music">
-    <h4 class="text">Some classical music...</h4>
-    <audio controls autoplay="true">
-        <source src="Nico_de_Napoli_-_Chopin__Waltz_In_A_Minor_Op_34_No_2.mp3" type="audio/mpeg">
-    </audio> 
-</div>
+        <h4 class="text">Some classical music...</h4>
+        <iframe src="../assets/250-milliseconds-of-silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+        <audio autoplay controls loop>
+        <source src="../assets/1847 Liszt - Liebestraum No.3 in A flat.mp3" type="audio/mpeg">
+        </audio>
+    </div>
 
     <div id="button" class="text">
         <button onclick="getShibas()" id="start">Get started</button>
         <button onclick="turnOffAudio()"><img src="https://cdn1.iconfinder.com/data/icons/essential-ui-lineal-set/512/speaker-512.png" height=40 width=40></button>
     </div>
-    
+
     <div id="gallery"></div>
 </body>
